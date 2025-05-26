@@ -73379,7 +73379,8 @@ version: 2.9.0
         )
       })(d.PureComponent)
       t.default = (0, D.connect)(function (e) {
-        // fixme fail in
+
+        e.userInfo = {} //doc: ultimate fix it worked
         
         // r.default.shared.accountExpiredDate = 0;
         return (0,r.default)({}, e.userInfo)
