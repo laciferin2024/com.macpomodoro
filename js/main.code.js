@@ -73444,9 +73444,9 @@ version: 2.9.0
                 m.default.shared.isAdvancedUser
                   ? h.default.shared.sync(1e3)
                   :h.default.shared.sync(1e3) //TODO: 
-                  // g.default.shared.emit(
-                  //     g.default.Event.SHOW_UPGRADE_PROMPT_DIALOG
-                  //   )
+                  g.default.shared.emit(
+                      g.default.Event.SHOW_UPGRADE_PROMPT_DIALOG
+                    )
             }),
             (o.purchase = function () {
               o.props.purchaseAction(), o.props.closeAction()
